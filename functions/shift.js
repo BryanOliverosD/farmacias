@@ -1,6 +1,5 @@
 const services_minsal  = require('./apis');
 const util = require('./util');
-var omit = require('object.omit');
 
 module.exports = class Shift {
 

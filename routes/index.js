@@ -4,6 +4,7 @@ const services  = require('../functions/shift');
 const { verificaToken } = require('../functions/util');
 
 router.post('/turnos', async(req, res) => {
+    console.log("Consultando por turnos ...");
     let shifts_services = new services();
     let pharmacies = await shifts_services.get_pharmacies(req);
     if (pharmacies){

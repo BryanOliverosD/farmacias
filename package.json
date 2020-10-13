@@ -16,7 +16,6 @@
     "express": "^4.17.1",
     "form-data": "^3.0.0",
     "jsonwebtoken": "^8.5.1",
-    "normalize-strings": "^1.1.0",
-    "object.omit": "^3.0.0"
+    "normalize-strings": "^1.1.0"
   }
 }
