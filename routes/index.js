@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const services  = require('../functions/shift');
-const { verificaToken } = require('../functions/util');
 
 router.post('/turnos', async(req, res) => {
     console.log("Consultando por turnos ...");

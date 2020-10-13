@@ -16,7 +16,7 @@ module.exports = class Apis {
                 })
                 .catch((error) => {
                     console.error(error);
-                    return
+                    return []
                 })
         return response
 
